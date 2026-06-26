@@ -1,5 +1,4 @@
 import React from 'react';
-import {NotificationItem, Language} from '../types';
 import {
     Bell,
     Info,
@@ -11,6 +10,7 @@ import {
     ToggleRight,
     Trash2
 } from 'lucide-react';
+import {Language, NotificationItem} from "@/models";
 
 interface NotificationHubProps {
     notifications: NotificationItem[];

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import {Booking, Passenger, Language} from '../types';
 import {Ticket, Calendar, Clock, User, Armchair, ShieldCheck, Download, Trash, UserCheck, Plus} from 'lucide-react';
+import {Booking, Language, Passenger} from "@/models";
 
 interface BookingHistoryProps {
     bookings: Booking[];

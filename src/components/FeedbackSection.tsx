@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Feedback, Language } from '../types';
 import { MessageSquare, Star, Send, ShieldAlert } from 'lucide-react';
+import {Feedback, Language} from "@/models";
 
 interface FeedbackSectionProps {
     feedbacks: Feedback[];
